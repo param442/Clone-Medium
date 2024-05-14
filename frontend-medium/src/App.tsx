@@ -7,7 +7,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import { ThemeProvider } from "./coontext/Blogs";
 
 function App() {
-  const Navigate = useNavigate();
+  const Navigate: any = useNavigate();
   const [data, setData] = useState(null);
   useEffect(() => {
     const fetchData = async () => {
