@@ -1,3 +1,5 @@
+import React from "react";
+
 const Cards = (props: any) => {
   const { ...post } = props;
   const val = post;

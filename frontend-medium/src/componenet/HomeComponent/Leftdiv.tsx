@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import useTheme from "../../coontext/Blogs";
 import Cards from "./Cards";
+import React from "react";
 
 type tags = {
   id: number | string;

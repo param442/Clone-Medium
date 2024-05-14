@@ -1,3 +1,5 @@
+import React from "react";
+
 const FormInput = (props: any) => {
   const { lable, id, onChange, value, ...inputs } = props;
   return (

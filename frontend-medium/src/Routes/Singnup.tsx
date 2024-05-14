@@ -1,9 +1,10 @@
 import { loginSchema, Inputs } from "param332-common";
-import { useState } from "react";
+import React, { useState } from "react";
 import FormInput from "./FormInput";
 import { Link, useNavigate } from "react-router-dom";
 import Qute from "../componenet/Qute";
 import axios from "axios";
+
 import { BACKEND_URL } from "../Backend_url";
 
 const Singnup = () => {

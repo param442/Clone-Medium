@@ -1,3 +1,5 @@
+import React from "react";
+
 const Qute = () => {
   return (
     <div className="  hidden w-[45%] bg-gray-200 laptop:flex items-center justify-center">
