@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .scrollbar-invisible::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent; /* Match the background color of the container */
+  }
+}
