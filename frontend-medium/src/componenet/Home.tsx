@@ -1,4 +1,3 @@
-import React from "react";
 import Leftdiv from "./HomeComponent/Leftdiv";
 import Rightdiv from "./HomeComponent/Rightdiv";
 

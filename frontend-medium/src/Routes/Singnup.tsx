@@ -1,5 +1,5 @@
 import { loginSchema, Inputs } from "param332-common";
-import React, { useState } from "react";
+import { useState } from "react";
 import FormInput from "./FormInput";
 import { Link, useNavigate } from "react-router-dom";
 import Qute from "../componenet/Qute";
